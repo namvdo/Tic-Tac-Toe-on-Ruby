@@ -42,5 +42,8 @@ The ```lib/``` or Library directory in most Ruby programs and the app/ directory
 Great developers write tests for their code. Whether through the practice of Test-Driven Development or not, it's important to be able to write tests that make sure your code behaves as expected. It's also crucial to be able to read tests and understand the requirements they define for your code. All of our tests go into the ```test/``` or ```spec/``` directory.
 
 #### If you want to learn more about Gemfile and ttt please visit Flatiron School.
+------------------
+### How to run it?
+In case you already have ***Learn IDE 3*** and currently following Full Stack Boot Camp, you just have to clone this repository and run it, but if you don't? it doesn't really matters. Just do it:
 
 
