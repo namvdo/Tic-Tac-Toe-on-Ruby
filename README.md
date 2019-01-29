@@ -1,5 +1,5 @@
 <div align="center">
-<img src="http://www.creativepixelmag.com/wp-content/uploads/2018/07/Feature-Image.png"><br>
+<img src="http://www.creativepixelmag.com/wp-content/uploads/2018/07/Feature-Image.png"><br><br>
 </div>
 
 -----------------
