@@ -84,7 +84,18 @@ Great developers write tests for their code. Whether through the practice of Tes
    -----------
       |   | X 
 ```
+<i>Y wins</i>
+```
+      | Y |   
+   -----------
+      | Y |   
+   -----------
+      | Y | 
+```
+
 ### How to run it?
 In case you already have ***Learn IDE 3*** and currently following Full Stack Boot Camp, you just have to clone this repository and run it, but if you don't? it doesn't really matters. Just do it:
+
+![](https://github.com/namvdo/Tic-Tac-Toe-on-Ruby/blob/master/lib/Jan-29-2019%2020-32-53.gif)
 
 
