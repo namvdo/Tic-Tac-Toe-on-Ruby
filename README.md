@@ -43,6 +43,47 @@ Great developers write tests for their code. Whether through the practice of Tes
 
 #### If you want to learn more about Gemfile and ttt please visit Flatiron School.
 ------------------
+### This is how the Tic Tac Toe game on Ruby looks like
+<i>Board</i>
+```
+      |   |   
+   -----------
+      |   |   
+   -----------
+      |   |   
+```
+<i>Board with X</i>
+```
+      | X |   
+   -----------
+    X |   |   
+   -----------
+      |   |   
+```
+<i>Board with O</i>
+```
+      |   | O  
+   -----------
+      | O |   
+   -----------
+      |   | O  
+```
+<i>Board with both X and O</i>
+```
+      | X | O  
+   -----------
+      | O | X   
+   -----------
+      | X |   
+```
+<i>X wins</i>
+```
+    X |   |   
+   -----------
+      | X |   
+   -----------
+      |   | X 
+```
 ### How to run it?
 In case you already have ***Learn IDE 3*** and currently following Full Stack Boot Camp, you just have to clone this repository and run it, but if you don't? it doesn't really matters. Just do it:
 
