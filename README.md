@@ -1,5 +1,5 @@
 <div align="center">
-<img src="http://www.creativepixelmag.com/wp-content/uploads/2018/07/Feature-Image.png"><br><br>
+<img src="https://www.nascenia.com/wp-content/uploads/2014/05/Ruby-on-Rails-slider1-500x233.gif"><br><br>
 </div>
 
 -----------------
