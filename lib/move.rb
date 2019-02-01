@@ -1,3 +1,5 @@
+# Actually it's not complete yet, but I'll keep updating.
+
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
