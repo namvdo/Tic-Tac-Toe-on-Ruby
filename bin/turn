@@ -9,3 +9,4 @@ puts "Where would you like to go?"
 
 display_board(board)
 turn(board)
+play(board)
