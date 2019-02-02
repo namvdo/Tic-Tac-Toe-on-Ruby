@@ -130,3 +130,12 @@ def draw?(board)
     return false
   end
 end
+
+# Over happens when X or O won, or every position is occupied, or draw, or X or Y won but not all the positions are occupied
+def over?(board)
+  if won?(board) || full?(board) || draw?(board)
+    return true
+  else
+    return nil
+  end
+end
