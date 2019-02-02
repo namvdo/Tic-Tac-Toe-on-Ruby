@@ -66,5 +66,15 @@ def play(board)
   end
 end
 
+# Checking whether X or O is currently playing
+def turn_count(board)
+  counter = 0 
+  for i in board
+    if i == "X" || i == "O"
+      counter += 1
+    end
+  end
+  return counter
+end
 
 
