@@ -139,3 +139,18 @@ def over?(board)
     return nil
   end
 end
+
+# Check who is the winner, X or O
+def winner(board)
+  checkwinner = []
+  checkwinner = won?(board)
+  if won?(board) == false
+    return nil
+  else
+    if board[checkwinner[0]] == "X"
+      return "X"
+    else
+      return "O"
+    end
+  end
+end
