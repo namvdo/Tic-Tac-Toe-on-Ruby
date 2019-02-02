@@ -115,3 +115,18 @@ else
   return false
 end
 
+# Full when every position is occupied 
+def full?(board)
+    board.all? do |board_full|
+      board_full == "X" || board_full == "O"
+    end
+end
+
+# Draw when board is full and cannot define the win combo 
+def draw?(board)
+  if full?(board) == true && won?(board) == false
+    return true
+  else
+    return false
+  end
+end
