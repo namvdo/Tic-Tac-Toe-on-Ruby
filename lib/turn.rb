@@ -99,6 +99,17 @@ WIN_COMBINATIONS = [
 ]
 
 # Win combo
+# Let me explain something on these lines of code. Constant WIN_COMBINATIONS with each method, for example variable ```index_0 = win_combo[0]```
+# It will select the first element in the array such as [0,1,2] it will return 0. But there are also we have the other arrays,
+# the same thing will happen like that with all other arrays, "each" method plays the role that iterate all of the array, so the result of ```index_0 = win_combo[0] will be:
+# 0
+# 3 
+# 6
+# 0
+# 1
+# 2
+# 0 
+# 2
 def won?(board)
     WIN_COMBINATIONS.each {|win_combo|
     index_0 = win_combo[0]
