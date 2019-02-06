@@ -113,6 +113,7 @@ WIN_COMBINATIONS = [
 # 2
 # 0 
 # 2
+# Yeah, now you can guess that index_1 and index_2 have the same structures like this.
 def won?(board)
     WIN_COMBINATIONS.each {|win_combo|
     index_0 = win_combo[0]
