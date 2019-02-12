@@ -11,6 +11,7 @@ First, it's better that you are following the curriculum of [FLATIRON SCHOOL](ht
 OK, next steps! Let's take a look some folders on this repository.
 If you want to build an application on Ruby, surely you have to commit with this structure:
 Project Structure
+```code
 ├── Gemfile
 ├── Gemfile.lock
 ├── README.md
@@ -23,6 +24,11 @@ Project Structure
     ├── 02_play_spec.rb
     ├── 03_cli_spec.rb
     └── spec_helper.rb
+```
+
+***Gemfile***
+These files set up some tools and gems for our project and can mostly be ignored. Make sure to run bundle before starting this project so that you have all the required gems.
+
 
 ***bin***
 
@@ -38,9 +44,13 @@ Using the above setup, you can run your program by typing ruby ```bin/< your fil
 
 The ```lib/``` or Library directory in most Ruby programs and the app/ directory in Rails projects or complex Ruby programs, is where the majority of our code lives. Within this directory are all the files that define what our program can do. All of the methods and classes our program needs are defined within the files in this directory. One file might define a group of methods that can search for a song by an artist, another file might define a group of methods that can search for a song by a genre. Together these methods might interact to create a Music Search application. We spend the majority of our time building code in this directory.
 
+Our main TicTacToe class will be defined here with all the data and logic required to play a game of tic tac toe via instances of TicTacToe.
+
 ***spec***
 
 Great developers write tests for their code. Whether through the practice of Test-Driven Development or not, it's important to be able to write tests that make sure your code behaves as expected. It's also crucial to be able to read tests and understand the requirements they define for your code. All of our tests go into the ```test/``` or ```spec/``` directory.
+
+There are three test files that should be completed in order. 01_tic_tac_toe_spec.rb sets tests for our helper methods within TicTacToe. 02_play_spec.rb tests the main #play method. 03_cli_spec.rb tests the CLI.
 
 #### If you want to learn more about Gemfile and ttt please visit Flatiron School.
 ------------------
