@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://www.nascenia.com/wp-content/uploads/2014/05/Ruby-on-Rails-slider1-500x233.gif"><br><br>
+<img src="https://www.technotification.com/wp-content/uploads/2016/10/Ruby-Programming-Language-Video-Course-Free.png"><br><br>
 </div>
 
 -----------------
@@ -9,20 +9,21 @@
 First, it's better that you are following the curriculum of [FLATIRON SCHOOL](https://flatironschool.com/) and see why we should learn Ruby on this comprehensive [article](https://medium.com/learn-love-code/why-teach-ruby-bac8416c77ba).
 
 OK, next steps! Let's take a look some folders on this repository.
-As can be observed, we have three in total. If you want to build an application on Ruby, surely you have to commit with this structure:
-```code
+If you want to build an application on Ruby, surely you have to commit with this structure:
+Project Structure
+├── Gemfile
+├── Gemfile.lock
+├── README.md
 ├── bin
 │   └── tictactoe
-├── config
-│   └── environment.rb
 ├── lib
 │   └── tic_tac_toe.rb
 └── spec
-    ├── tic_tac_toe_spec.rb
+    ├── 01_tic_tac_toe_spec.rb
+    ├── 02_play_spec.rb
+    ├── 03_cli_spec.rb
     └── spec_helper.rb
-├── Gemfile    
-├── ttt.rb 
-```
+
 ***bin***
 
 Within the bin/ directory we generally put code that relates to running our actual program, running CLI applications
