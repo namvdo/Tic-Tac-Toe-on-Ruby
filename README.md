@@ -105,8 +105,10 @@ There are three test files that should be completed in order. 01_tic_tac_toe_spe
 ```
 
 ### How to run it?
-In case you already have ***Learn IDE 3*** and currently following Full Stack Boot Camp, you just have to clone this repository and run it, but if you don't? it doesn't really matters. Just do it:
-
-![](https://github.com/namvdo/Tic-Tac-Toe-on-Ruby/blob/master/lib/Jan-29-2019%2020-32-53.gif)
+In case you already have ***Learn IDE 3*** and currently following Full Stack Boot Camp, you just have to clone this repository and run with the instruction inside it, but if you don't? it doesn't really matters. Follow these steps:
+* Clone this repository
+* Go to lib dictionary
+* Run command ```ruby tictactoe3x3.rb```
+* Enjoy!
 
 
